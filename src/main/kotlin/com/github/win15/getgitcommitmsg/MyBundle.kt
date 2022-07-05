@@ -1,4 +1,4 @@
-package org.jetbrains.plugins.template
+package com.github.win15.getgitcommitmsg
 
 import com.intellij.DynamicBundle
 import org.jetbrains.annotations.NonNls
