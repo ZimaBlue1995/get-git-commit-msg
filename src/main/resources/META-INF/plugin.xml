@@ -12,9 +12,11 @@
     </extensions>
 
     <actions>
-        <group id="MyIdeaDemo.HelloAction" text="MyIdeaDemo" description="LALALA">
+        <group id="MyIdeaDemo.HelloAction" text="GIT COMMIT MSG" description="LALALA">
             <add-to-group group-id="MainMenu" anchor="last"/>
-            <action class="com.github.win15.getgitcommitmsg.actions.GitAction" id="MyIdeaDemo.Action.HelloAction" text="say hello"/>
+            <add-to-group group-id="EditorPopupMenu" anchor="last"/>
+            <add-to-group group-id="ProjectViewPopupMenu" anchor="last"/>
+            <action class="com.github.win15.getgitcommitmsg.actions.GitAction" id="MyIdeaDemo.Action.HelloAction" text="GET-GIT-COMMIT-MSG"/>
         </group>
     </actions>
 
